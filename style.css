@@ -3,7 +3,7 @@ body {
     background-color:azure;
     margin: 0;
     padding: 0;
-    background-image: url('../images/muneeb-syed-x9NfeD3FpsE-unsplash.jpg');
+    background-image: url('./muneeb-syed-x9NfeD3FpsE-unsplash.jpg');
     background-size:cover;
 }
 
