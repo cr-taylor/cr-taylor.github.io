@@ -1,47 +1,83 @@
 <!DOCTYPE html>
-<html> <!-- This is a comment -->
-<head>
-	<title>Basic HTML Structure Notes</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- I haven't learned the tags above yet - I can basically tell what they're doing but need to fill in more info later -->
-	<link href="/style.css" type="text/css" rel="stylesheet"> 
-</head>
-<body>
-	<h1 id="headertop">Basic HTML Structure</h1>
-	<h2>Some examples of basic tags, etc.</h2>
-	<!-- There are 6 heading sizes (h1 thru h6) -->
-	<img src="/dancing-bird.gif" alt="Bird dancing seductively">
-	<main>
-		<section>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p><a href="./about.html">Learn more about us</a></p>
-			<p><a href="https://en.wikipedia.org/wiki/Western_parotia" target="_blank">Go to another site</a></p>
-		</section>
-		<section>
-			<h3>Here are some lists</h3>
-			<h4>An unordered list</h4>
-			<ul>
-				<li>A bullet point</li>
-				<li>Another bullet point</li>
-				<li><a href="./blog.html">A bullet point linking to our blog</a></li>
-				<li> REMEMBER that the anchor element (< a >) can only wrap around CONTENT such as text or image; it cannot wrap around structural tags like line items or paragraphs</li>
-			</ul>
-			<h4>An ordered list</h4>
-			<ol>
-				<li>Step One</li>
-				<li>Step Two</li>
-				<li>Step Three</li>
-			</ol>
-		</section>
-	</main>
-<footer>
-	<h5><a href="./tables.html">Visit our page about tables</a></h5>
-</footer>
-<br/>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Tea Cozy</title>
+    <link rel="stylesheet" href="resources/CSS/style.css">
+  </head>
+  <body>
+    <header>
+        <img class="logo" src="resources/images/img-tea-cozy-logo.png" alt="Tea Cozy">
+        <a class="nav" href="#">Mission</a> 
+        <a class="nav" href="#">Featured Tea</a> 
+        <a class="nav" href="#">Locations</a>
+    </header>
+    <main>
+        <div class="container jumbotron">
+            <div class="mission-statement">
+                <h2>Our Mission</h2>
+                <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+            </div>
+        </div>
+        <div class="container featured">
+            <h2>Tea of the Month</h2>
+            <h4>What's Steeping at the Tea Cozy?</h4>
+            <div class="container menu">
+                <div class="menu-card">
+                    <img class="menu-img" src="resources/images/img-berryblitz.jpg">
+                    <h4>Fall Berry Blitz Tea</h4>
+                </div>
+                <div class="menu-card">
+                    <img class="menu-img" src="resources/images/img-spiced-rum.jpg">
+                    <h4>Spiced Rum Tea</h4>
+                </div>
+                <div class="menu-card">
+                    <img class="menu-img" src="resources/images/img-donut.jpg">
+                    <h4>Seasonal Donuts</h4>
+                </div>
+                <div class="menu-card">
+                    <img class="menu-img" src="resources/images/img-myrtle-ave.jpg">
+                    <h4>Myrtle Ave Tea</h4>
+                </div>
+                <div class="menu-card">
+                    <img class="menu-img" src="resources/images/img-bedford-bizarre.jpg">
+                    <h4>Bedford Bizarre Tea</h4>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <h2>Locations</h2>
+            <div class="container locations">
+                <div class="location-card">
+                    <h3>Downtown</h3>
+                    <p>384 West 4th St</p>
+                    <p>Suite 108</p>
+                    <p>Portland, Maine</p>
+                </div>
+                <div class="location-card">
+                    <h3>East Bayside</h3>
+                    <p>3433 Phisherman's Avenue</p>
+                    <p>(Northwest Corner)</p>
+                    <p>Portland, Maine</p>
+                </div>
+                <div class="location-card">
+                    <h3>Oakdale</h3>
+                    <p>515 Crescent Avenue</p>
+                    <p>Second Floor</p>
+                    <p>Portland, Maine</p>
+                </div>
+            </div>
+        </div>
+        <div class="container contact">
+            <h2>The Tea Cozy</h2>
+            <h5>contact@theteacozy.com</h5>
+            <h5>917-555-8904</h5>
+        </div>
+        <div class="container footer">
+            <h5>copyright The Tea Cozy 2023</h5>
+        </div>
+    </main>
+  </body>
 </html>
